@@ -202,10 +202,9 @@ header {
 
 .features.list {
   display: flex;
-  margin-right: -30px;
 }
 .features-item {
-  flex-basis: calc(100% / 4 - 30px);
+  flex-basis: calc((100%-90px)/4 );
   margin-right: 30px;
 }
 .features-item:last-child {
@@ -252,12 +251,11 @@ header {
 }
 .team.list {
   display: flex;
-  margin-right: -30px;
 }
 .team-card {
   background-color: var(--white-color);
   text-decoration: none;
-  flex-basis: calc(100% / 4 - 30px);
+  flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -297,11 +295,9 @@ img {
 .portfolio.list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
 }
 .portfolio-list-item {
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% - 60px) / 3 );
   margin-right: 30px;
   margin-bottom: 30px;
 }
